@@ -16,16 +16,15 @@
              background-color: var(--cream);
              color: var(--deep-brown);
              font-family: 'Inter', sans-serif;
-             overflow: hidden; /* Prevents scroll bar like the video */
+             overflow: hidden; 
          }
-         /* THE HUGE FONT AT THE BOTTOM */
          .brand-name {
              font-family: 'Playfair Display', serif;
              font-size: clamp(6rem, 18vw, 14rem);
              font-weight: 400;
              line-height: 0.85;
              color: var(--deep-brown);
-             text-transform: lowercase; /* Like numa style */
+             text-transform: lowercase;
              position: absolute;
              bottom: -5%;
              left: 0;
@@ -54,7 +53,6 @@
      </style>
  </head>
  <body class="h-screen w-screen relative">
-     <!-- NAVIGATION BAR AT THE TOP RIGHT -->
      <nav class="fixed w-full top-0 left-0 px-8 py-6 flex justify-end items-center z-50">
          <div class="flex gap-8">
              <a href="index.html" class="nav-link active text-lg">Home</a>
@@ -65,11 +63,8 @@
              <a href="feedback.html" class="nav-link text-lg">Feedback</a>
          </div>
      </nav>
-     <!-- MAIN AREA IS EMPTY -->
      <main class="h-full w-full flex items-center justify-center">
-         <!-- Nothing here, just empty space -->
      </main>
-     <!-- HUGE COACH NAME AT THE BOTTOM -->
      <div class="brand-name">
          coach
      </div>
